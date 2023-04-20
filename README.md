@@ -44,6 +44,9 @@ $ cd <repo_name>
 # instale as dependências
 $ npm install
 
+# insira o IP da sua máquina no script "server" do package.json
+$ "server": "json-server --watch db.json --host SEU_IP"
+
 # rode o server
 $ npm run server
 
