@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "id": 4,
+      "title": "Movie tickets",
+      "value": 22.5,
+      "date": "2023-04-14",
+      "type": "outcome"
+    },
+    {
+      "id": 6,
+      "title": "Online shopping",
+      "value": 120.75,
+      "date": "2023-04-12",
+      "type": "outcome"
+    },
+    {
+      "id": 9,
+      "title": "Haircut",
+      "value": "19",
+      "date": "2023-04-09",
+      "type": "outcome"
+    },
+    {
+      "id": 10,
+      "title": "Salary",
+      "value": 2500,
+      "date": "2023-04-08",
+      "type": "income"
+    },
+    {
+      "type": "income",
+      "title": "Lanchao",
+      "value": "115",
+      "date": "2023/04/12",
+      "id": 12
+    }
+  ]
+}
