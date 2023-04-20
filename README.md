@@ -32,27 +32,21 @@ Aplicação desenvolvida para gerenciar transações financeiras, com o objetivo
 
 <h4>Como rodar no seu computador🖥️</h4>
 
-- Instale o [Node.js](https://nodejs.org/en/download/) e o [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Então:
+Instale o [Node.js](https://nodejs.org/en/download/) e o [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Então:
 
-```
-# clone esse repositório
-$ git clone https://github.com/felipejsborges/<repo_name>.git
+- clone esse repositório: `$ git clone https://github.com/felipejsborges/dnc-react-native-challenge.git`
 
-# acesse a pasta do projeto
-$ cd <repo_name>
+- acesse a pasta do projeto `$ cd dnc-react-native-challenge`
 
-# instale as dependências
-$ npm install
+- instale as dependências: `$ npm install`
 
-# insira o IP da sua máquina no script "server" do package.json
-$ "server": "json-server --watch db.json --host SEU_IP"
+- insira o IP da sua máquina no script "server" do package.json: `"server": "json-server --watch db.json --host SEU_IP"`
 
-# rode o server
-$ npm run server
+- insira também no arquivo [api.js](./src/api.js): `const API_URL = "http://SEU_IP:3000";`
 
-# abra outro terminal e rode o aplicativo
-$ npm run start
-```
+- rode o server: `$ npm run server`
+
+- abra outro terminal e rode o aplicativo: `$ npm run start`
 
 Para acessar a aplicação, basta baixar o aplicativo [Expo Go](https://expo.dev/client) no seu smartphone e escanear o QR Code que aparecerá no terminal.
 
