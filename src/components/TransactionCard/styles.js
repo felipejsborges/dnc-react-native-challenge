@@ -19,7 +19,7 @@ export const Content = styled.View``;
 // @ts-ignore
 export const Options = styled.View`
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
 `;
 
 // @ts-ignore
