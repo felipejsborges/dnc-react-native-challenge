@@ -15,17 +15,17 @@
 
 <h4>Descrição 📄</h4>
 
-Aplicação desenvolvida para listar e visualizar tarefas, com o objetivo de colocar em práticas a biblioteca de desenvolvimento de interfaces React JS.
+Aplicação desenvolvida para gerenciar transações financeiras, com o objetivo de colocar em práticas a biblioteca de desenvolvimento de aplicativos móveis React Native.
 
 <hr>
 
 <h4>Tecnologias 🚀</h4>
 
 - Javascript
-- React JS
-- Vite
-- React Router Dom
-- Sass
+- React Native
+- Expo
+- React Navigation
+- Styled Components
 - JSON Server
 
 <hr>
@@ -47,14 +47,16 @@ $ npm install
 # rode o server
 $ npm run server
 
-# abra outro terminal e rode o projeto
-$ npm run dev
+# abra outro terminal e rode o aplicativo
+$ npm run start
 ```
-- [Acesse a aplicação](http://localhost:5173)
+
+Para acessar a aplicação, basta baixar o aplicativo [Expo Go](https://expo.dev/client) no seu smartphone e escanear o QR Code que aparecerá no terminal.
 
 <hr>
 
 by Felipe Borges<br>
+
 <div>
 	<a href="https://www.linkedin.com/in/felipejsborges">
 		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
